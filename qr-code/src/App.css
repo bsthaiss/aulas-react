@@ -1,0 +1,15 @@
+* {
+    /*Reset do CSS */
+    margin: 0; /* espaço entre os elementos */
+    padding: 0; /* preenchimento do elemento, espaço interno (distância entre o conteúdo e as extremidades do elemento) */
+    box-sizing: border-box; /*os elementos terão o exato tamanho que eu definir */
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

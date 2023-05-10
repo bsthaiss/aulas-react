@@ -1,0 +1,28 @@
+section {
+    background-color: #FFF;
+    width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+strong {
+    font-size: 22px;
+    display: block;
+    padding-inline: 16px;
+    line-height: 27.72px;
+    margin-bottom: 16px;
+    color: #1F314F;
+}
+
+p {
+    padding-inline: 16px;
+    margin-bottom: 24px;
+    color: #7D889E;
+}
