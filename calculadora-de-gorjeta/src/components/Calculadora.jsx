@@ -24,7 +24,6 @@ export function Calculadora() {
                         <input type="number" id="people-number" placeholder="0" />
                     </div>
                 </div>
-
             </form>
             <section className="results">
                 <div className="tip-amount">
@@ -44,7 +43,7 @@ export function Calculadora() {
                 </div>
 
                 <button>Limpar</button>
-
+                
             </section>
         </main>
     );
