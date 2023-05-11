@@ -5,9 +5,11 @@ export function Calculadora() {
                 <div className="bill">
                     <label htmlFor="bill">Conta</label>
                 </div>
+
                 <div className="input-box">
                     <input type="number" id="bill" placeholder="0"/>
                 </div>
+
                 <div className="tip-percentage">
                     <label htmlFor="custom">Selecione a Porcentagem %</label>
                     <div>
@@ -15,12 +17,14 @@ export function Calculadora() {
                         <input type="number" id="custom" placeholder="Outra" />
                     </div>
                 </div>
+
                 <div className="people">
                     <label htmlFor="people-number">Número de Pessoas</label>
                     <div className="input-box">
                         <input type="number" id="people-number" placeholder="0" />
                     </div>
                 </div>
+
             </form>
             <section className="results">
                 <div className="tip-amount">
@@ -30,6 +34,7 @@ export function Calculadora() {
                     </p>
                     <p>R$ 0.00</p>
                 </div>
+
                 <div className="total">
                     <p>
                         Total <br />
@@ -37,7 +42,9 @@ export function Calculadora() {
                     </p>
                     <p>R$ 0.00</p>
                 </div>
+
                 <button>Limpar</button>
+
             </section>
         </main>
     );
