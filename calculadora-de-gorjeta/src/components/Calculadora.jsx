@@ -1,5 +1,6 @@
 import Cifrao from '../images/cifrao.png'
 import Pessoa from '../images/pessoa.png'
+import './Calculadora.css'
 
 export function Calculadora() {
     return (
