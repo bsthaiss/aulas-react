@@ -1,0 +1,32 @@
+main {
+    background-color: #FFF;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+    padding: 2rem;
+    font-family: 'Space Mono', monospace;
+}
+
+label {
+    color: #5E7A7D;
+    line-height: 1.5rem;
+    margin-bottom: .375rem;
+}
+
+.input-box {
+    background-color: #F3F9FA;
+    border-radius: 5px;
+    padding-inline-start: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-box input {
+    border: 0;
+    background-color: transparent;
+    text-align: right;
+    font-size: 1.5rem;
+    width: 100%;
+    outline: none;
+    color: #00474B;
+}
