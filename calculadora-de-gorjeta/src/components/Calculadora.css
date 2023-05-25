@@ -15,7 +15,7 @@ label {
 .input-box {
     background-color: #F3F9FA;
     border-radius: 5px;
-    padding-inline-start: 1.25rem;
+    padding-inline: 1.25rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
