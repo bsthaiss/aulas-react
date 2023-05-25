@@ -123,3 +123,37 @@ label {
 #custom:focus {
     outline: 2px solid #26C2AE;
 }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    display: none;
+    margin: 0;
+}
+
+input[type=button]:hover,
+button:hover {
+    background-color: #9FE8DF;
+    cursor: pointer;
+}
+
+@media(min-width: 958px) {
+    main {
+        max-width: 57.5rem;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+        border-radius: 25px;
+    }
+
+    .tip-percentage div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .results {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2.5rem;
+    }
+}

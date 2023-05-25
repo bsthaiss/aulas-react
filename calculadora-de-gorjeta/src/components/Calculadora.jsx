@@ -32,6 +32,7 @@ export function Calculadora() {
                 </div>
             </form>
             <section className="results">
+                <div>
                 <div className="tip-amount">
                     <p>
                         Gorjeta <br />
@@ -47,9 +48,9 @@ export function Calculadora() {
                     </p>
                     <p>R$ 0.00</p>
                 </div>
+                </div>
 
-                <button>Limpar</button>
-                
+                <button>Limpar</button>               
             </section>
         </main>
     );
