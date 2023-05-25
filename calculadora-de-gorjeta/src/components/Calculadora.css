@@ -118,6 +118,8 @@ label {
 }
 
 .input-box:has(input:hover),
-.input-box:has(input:focus) {
+.input-box:has(input:focus),
+#custom:hover,
+#custom:focus {
     outline: 2px solid #26C2AE;
 }
