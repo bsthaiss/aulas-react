@@ -3,6 +3,17 @@ import Pessoa from '../images/pessoa.png'
 import './Calculadora.css'
 
 export function Calculadora() {
+    const [conta, setConta] = useState(0)
+    const [pessoas, setPessoas] = useState(0)
+
+    function handleAlterarConta(event) {
+        setConta(event.target.valueAsNumber)
+    }
+
+    function handleAlterarPessoas(event) {
+        setPessoas(event.target.valueAsNumber)
+    }
+
     return (
         <main>
             <form action="">
@@ -12,7 +23,7 @@ export function Calculadora() {
 
                 <div className="input-box">
                     <img src={Cifrao} alt="Imagem do Cifrão" />
-                    <input type="number" id="bill" placeholder="0"/>
+                    <input type="number" id="bill" placeholder="0" onChange={() => }/>
                 </div>
 
                 <div className="tip-percentage">
