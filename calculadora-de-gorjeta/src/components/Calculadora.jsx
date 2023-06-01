@@ -37,16 +37,18 @@ export function Calculadora(){
         setPorcentagem(0)
     }
 
+export function Calculadora() {
     return (
         
         <main>
             <form action="">
                 <div className="bill">
                     <label htmlFor="bill">Conta</label>
-                    <div className="input-box">
-                        <img src={cifrao} alt="imagem do cifrão" onChange={handleAlterarConta} value={conta !== 0  && conta}/>
-                        <input type="number" id="bill" placeholder="0" />
-                    </div>
+                </div>
+
+                <div className="input-box">
+                    <img src={Cifrao} alt="Imagem do Cifrão" />
+                    <input type="number" id="bill" placeholder="0"/>
                 </div>
                 <div className="tip-percentage">
                     <label htmlFor="">Selecione a Porcentagem %</label>
@@ -88,8 +90,10 @@ export function Calculadora(){
                     <p>R$ {total.toFixed(2)}</p>
                 </div>
                 </div>
+                </div>
 
-                <button onClick={limpar}>Limpar</button>
+                <button>Limpar</button>
+                
             </section>
         </main>
     )
